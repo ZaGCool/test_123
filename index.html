@@ -10,10 +10,16 @@
         width: 100px;
         height: 100px;
         background-color: red;
+        position: absolute;
+        left: 100px;
+        top: 100px;
       }
     </style>
   </head>
   <body>
     <div id="box">盒子</div>
   </body>
+  <script>
+    document.querySelector("#box").style.border = "2px solid blue";
+  </script>
 </html>
