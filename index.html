@@ -10,6 +10,9 @@
         width: 100px;
         height: 100px;
         background-color: red;
+        position: absolute;
+        left: 100px;
+        top: 100px;
       }
     </style>
   </head>
@@ -22,4 +25,11 @@
       <li>444</li>
     </ul>
   </body>
+  <script>
+    document.querySelector("#box").style.border = "2px solid blue";
+
+    document.querySelector("#box").onclick = function () {
+      alert("呜呜呜欧");
+    };
+  </script>
 </html>
